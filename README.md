@@ -1,24 +1,26 @@
-# React MDX cells renderer
-This module renders MDX representation of WLJS Notebook cells using React and Docusaurus.
+# React MDX Cells Renderer
+This module renders the MDX representation of WLJS Notebook cells using React and Docusaurus.
 
 ::__Warning__
 This is a prototype!
 
 ## Examples
-[Blog page](https://jerryi.github.io/wljs-docs/blog) of WLJS Docs
+Check out the [Blog page](https://jerryi.github.io/wljs-docs/blog) of WLJS Docs.
 
-## Installation and usage
-1. Clone this repo
-2. Place it to `src/components/` of your Docusarurus project
-3. Export to MDX your WLJS notebook using `Share button` 
-4. Start your docusaurus server `npm start`
+## Installation and Usage
+1. Clone this repo.
+2. Place it in the `src/components/` directory of your Docusaurus project.
+3. Export your WLJS notebook to MDX using the `Share` button.
+4. Start your Docusaurus server with `npm start`.
 
-## Styles and JS libraries
-It is up to you, what is to include and what is not
+## Styles and JS Libraries
+It’s up to you to decide what to include and what not to.
+
 ### Libraries
-On step *3* in the modal window a list of used libraries will be shown. Remove unnecessary from the list (which is not used in your notebook) and add it to the header of your blog. One of the ways is use `headTags` property of your `docusaurus.config`
+In step *3*, a list of libraries used in your notebook will be shown in the modal window. Remove any unnecessary libraries from the list (those not used in your notebook) and add the necessary ones to the header of your blog. One way to do this is by using the `headTags` property of your `docusaurus.config`.
 
 *for example*
+
 ```js
 const scripts = [ //use CDN or host them locally
   "https://cdn.jsdelivr.net/gh/JerryI/wljs-interpreter@dev/src/interpreter.min.js",
