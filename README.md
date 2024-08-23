@@ -53,12 +53,13 @@ const config = {
     ...
 ```
 
+
 ### Styles/CSS
-It is up to a user, how to stylize the cells. WLJS cells is using TailwindCSS for styling, therefore most of classes are reusable utility classes
+It is up to the user to decide how to style the cells. WLJS cells use TailwindCSS for styling, so most of the classes are reusable utility classes.
 
-Here is some base styles used on the official blog page
+Here are some basic styles used on the official blog page:
 
-*If you are using Tailwind, please, remove all utility classes*
+*If you are using Tailwind, please remove all utility classes.*
 <details>
 
 ```css
